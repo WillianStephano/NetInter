@@ -1,0 +1,71 @@
+:root{
+   --cinza_txt:#6d6d6d;
+}
+
+html{
+   font-family: 'Inter';
+}
+
+.cabecalho{
+   width: 90%;
+   margin: 2% auto;
+}
+
+.cabecalho .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.titulo-logo{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.img-logo{
+   vertical-align: middle;
+}
+
+.menu-nav{
+   display: flex;
+   justify-content: space-between;
+   width: 35%;
+}
+
+.item-menu-nav{
+   color: var(--cinza_txt);
+}
+
+.linha-cabecalho{
+   border-top: transparent;
+   border-bottom: 1px solid #c5c5c5;
+   margin: 0;
+}
+
+
+/* ###################### INFO ######################## */
+main{
+}
+
+.info{
+   background-color: #eff8ff;
+}
+
+.info .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 90%;
+   margin: 0 auto;
+}
+
+.titulo-info{
+   width: 50%;
+   font-size: 46px;
+   font-weight: 800;
+}
+
+.ilustração-info{
+   width: 50%;
+}
+
