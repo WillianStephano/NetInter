@@ -73,14 +73,14 @@ html{
 
 /* ###################### SOBRE NOS ######################## */
 .sobre-nos{
-   width: 90%;
-   margin: 2% auto 15%;
+   padding: 4% 0;
 }
 
 .sobre-nos .container{
    display: flex;
    justify-content: space-between;
-   margin-top: 2%;
+   width: 90%;
+   margin: 2% auto;
 }
 
 .card-sobre-nos{
@@ -115,14 +115,15 @@ html{
 /* ###################### PLANOS ######################## */
 
 .planos{
-   width: 90%;
-   margin: 2% auto 5%;
+   background-color: #EFF8FF;
+   padding: 4% 0;
 }
 
 .planos .container{
    display: flex;
    justify-content: space-between;
-   margin-top: 3%;
+   width: 90%;
+   margin: 2% auto;
 }
 
 .titulo-planos{
@@ -132,7 +133,7 @@ html{
    color: var(--azul_titulo);
 }
 
-.txt-titulo{
+.txt-planos{
    text-align: center;
    color: var(--cinza_txt);
    line-height: 2.0em;
@@ -144,6 +145,9 @@ html{
    text-align: center;
    border-radius: 10px;
    color: var(--azul_titulo);
+   border: 1px solid #9d9d9d95;
+   background-color: #dbecf9;
+   box-shadow: 0px 1px 5px #9d9d9dad;
 }
 
 .card-planos:hover{
@@ -153,9 +157,14 @@ html{
 }
 
 .titulo-card-planos{
-   font-size: 32px;
+   font-size: 36px;
    font-weight: 600;
    margin-bottom: 15%;
+}
+
+.titulo-card-planos::after{
+   content: 'mb';
+   font-size: 18px;
 }
 
 .preco{
@@ -197,7 +206,7 @@ html{
 
 /* ###################### APP ######################## */
 .app{
-   background-color: #EFF8FF;
+   padding: 5% 0;
 }
 
 .app .container{
@@ -234,6 +243,72 @@ html{
    margin-right: 20px;
 }
 
+.bt-app:hover{
+   background-color: #002541;
+}
+
 .icon-bt-app{
    vertical-align: middle;
+}
+
+
+/* ###################### CONTATO ######################## */
+
+.contato{
+   background-color: #eff8ff;
+   padding: 5% 0;
+}
+
+.contato .container{
+   width: 90%;
+   margin: 0 auto;
+}
+
+.titulo-contato{
+   text-align: center;
+   font-size: 38px;
+   font-weight: 600;
+   color: var(--azul_titulo);
+}
+
+.txt-contato{
+   text-align: center;
+   line-height: 1.5em;
+}
+
+.form-contato{
+   text-align: center;
+   margin-top: 3%;
+   display: flex;
+  justify-content: center;
+}
+
+.campo-contato{
+   width: 30%;
+   height: 30px;
+   outline: 1px solid #6d6d6dd3;
+   box-shadow: 0px 1px 5px #9e9e9ed7;
+   border: none;
+}
+
+.campo-contato:focus{
+   outline: 1px solid #0F9AFE;
+}
+
+.bt-contato{
+   width: 10%;
+   border-radius: 0px 10px 10px 0;
+   outline: 1px solid #6d6d6dd3;
+   border: none;
+   background-color: #0F9AFE;
+   color: #ffffff;
+   font-weight: 600;
+   font-size: 14px;
+}
+
+.bt-contato:hover{
+cursor: pointer;
+background-color: #31a9ff;
+outline: 1px solid #0F9AFE;
+
 }
