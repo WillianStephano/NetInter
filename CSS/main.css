@@ -140,47 +140,57 @@ html{
 
 .card-planos{
    width: 25%;
-   padding: 2%;
+   padding: 5% 2%;
    text-align: center;
-   border: 1px solid red;
    border-radius: 10px;
+   color: var(--azul_titulo);
 }
 
 .card-planos:hover{
    background-color: #3F3D56;
    color: #eff8ff;
+   transition: 350ms;
 }
 
 .titulo-card-planos{
    font-size: 32px;
    font-weight: 600;
-   margin-bottom: 10%;
-   color: #3F3D56;
+   margin-bottom: 15%;
 }
 
 .preco{
    font-size: 28px;
    font-weight: 600;
-   margin-bottom: 10%;
-   color: #3F3D56;
+   margin-bottom: 15%;
+}
+
+.preco::before{
+   content: 'R$';
+   font-size: 15px;
+   vertical-align: top;
+}
+
+.preco::after{
+   content: '/mes';
+   font-size: 18px;
 }
 
 .descri-card-planos{
-   color: var(--cinza_txt);
    font-weight: 1.3em;
-   margin-bottom: 10%;
+   margin-bottom: 20%;
 }
 
 .bt-card-planos{
    text-decoration: none;
    color: #eff8ff;
-   background: #5474b8;
-   padding: 2% 5%;
-   border-radius: 6px;
+   background: #0F9AFE;
+   padding: 3% 25%;
+   border-radius: 20px;
+   box-shadow: 1px 1px 3px #293145;
 }
 
 .bt-card-planos:hover{
-   background: #6789d3;
+   background: #31a9ff;
    transition: 250ms;
 }
 
