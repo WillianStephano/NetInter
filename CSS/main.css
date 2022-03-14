@@ -1,5 +1,8 @@
 :root{
    --cinza_txt:#6d6d6d;
+   --azul_titulo:#3F3D56;
+   --branco: #eff8ff;
+
 }
 
 html{
@@ -44,9 +47,6 @@ html{
 
 
 /* ###################### INFO ######################## */
-main{
-}
-
 .info{
    background-color: #eff8ff;
 }
@@ -63,9 +63,124 @@ main{
    width: 50%;
    font-size: 46px;
    font-weight: 800;
+   color: var(--azul_titulo);
 }
 
 .ilustração-info{
    width: 50%;
+}
+
+
+/* ###################### SOBRE NOS ######################## */
+.sobre-nos{
+   width: 90%;
+   margin: 2% auto 15%;
+}
+
+.sobre-nos .container{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2%;
+}
+
+.card-sobre-nos{
+   width: 25%;
+   text-align: center;
+}
+
+.titulo-sobre-nos{
+   text-align: center;
+   font-size: 38px;
+   font-weight: 600;
+   color: var(--azul_titulo);
+}
+
+.card-titulo{
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 2.0em;
+}
+
+.txt-card-sobre{
+   font-size: 16px;
+   color: var(--cinza_txt);
+}
+
+.card-img{
+   width: 60px;
+   height: 65px;
+}
+
+
+/* ###################### PLANOS ######################## */
+
+.planos{
+   width: 90%;
+   margin: 2% auto 5%;
+}
+
+.planos .container{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3%;
+}
+
+.titulo-planos{
+   text-align: center;
+   font-size: 38px;
+   font-weight: 600;
+   color: var(--azul_titulo);
+}
+
+.txt-titulo{
+   text-align: center;
+   color: var(--cinza_txt);
+   line-height: 2.0em;
+}
+
+.card-planos{
+   width: 25%;
+   padding: 2%;
+   text-align: center;
+   border: 1px solid red;
+   border-radius: 10px;
+}
+
+.card-planos:hover{
+   background-color: #3F3D56;
+   color: #eff8ff;
+}
+
+.titulo-card-planos{
+   font-size: 32px;
+   font-weight: 600;
+   margin-bottom: 10%;
+   color: #3F3D56;
+}
+
+.preco{
+   font-size: 28px;
+   font-weight: 600;
+   margin-bottom: 10%;
+   color: #3F3D56;
+}
+
+.descri-card-planos{
+   color: var(--cinza_txt);
+   font-weight: 1.3em;
+   margin-bottom: 10%;
+}
+
+.bt-card-planos{
+   text-decoration: none;
+   color: #eff8ff;
+   background: #5474b8;
+   padding: 2% 5%;
+   border-radius: 6px;
+}
+
+.bt-card-planos:hover{
+   background: #6789d3;
+   transition: 250ms;
 }
 
