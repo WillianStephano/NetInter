@@ -310,5 +310,17 @@ html{
 cursor: pointer;
 background-color: #31a9ff;
 outline: 1px solid #0F9AFE;
+}
 
+
+
+/* ###################### RODAPE ######################## */
+.rodape{
+   padding: 10px;
+}
+
+.txt-rodape{
+   text-align: center;
+   font-size: 14px;
+   color: var(--cinza_txt);
 }
