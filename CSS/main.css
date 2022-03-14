@@ -194,3 +194,32 @@ html{
    transition: 250ms;
 }
 
+
+/* ###################### APP ######################## */
+.app{
+   background-color: #EFF8FF;
+}
+
+.app .container{
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.ilustracao-app{
+   width: 500px;
+}
+
+.titulo-app{
+   font-size: 32px;
+   font-weight: 600;
+   color: var(--azul_titulo);
+   line-height: 1.5em;
+}
+
+.txt-app{
+   line-height: 1.3em;
+   color: var(--cinza_txt);
+}
