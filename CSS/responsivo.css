@@ -1,0 +1,65 @@
+@media screen and (max-width:425px) {
+
+   .cabecalho{
+      display: none;
+   }
+
+   .info .container{
+      flex-direction: column;
+   }
+
+   .ilustração-info, .titulo-info{
+      width: 100%;
+      text-align: center;
+   }
+
+   .sobre-nos .container{
+      flex-direction: column;
+      row-gap: 30px;
+      margin: 10% auto;
+   }
+
+   .card-sobre-nos{
+      width: 100%;
+   }
+
+   .planos .container{
+      flex-direction: column;
+      align-items: center;
+      row-gap: 30px;
+      margin: 10% auto;
+
+   }
+
+   .card-planos{
+      width: 80%;
+      padding: 8% 2%;
+   }
+
+   .app .container{
+      flex-direction: column;
+      row-gap: 30px;
+   }
+
+   .conteudo-txt{
+      text-align: center;
+   }
+   
+   .bt-app{
+      margin-right: 0;
+   }
+
+
+   .ilustracao-app{
+      width: 100%;
+   }
+
+
+   .campo-contato{
+      width: 60%;
+   }
+
+   .bt-contato{
+      width: 20%;
+   }
+}
