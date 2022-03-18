@@ -196,7 +196,7 @@ html{
 .bt-card-planos{
    text-decoration: none;
    color: #eff8ff;
-   background: #0F9AFE;
+   background: #0177CB;
    padding: 3% 25%;
    border-radius: 20px;
    box-shadow: 1px 1px 3px #293145;
@@ -287,6 +287,10 @@ html{
    justify-content: center;
 }
 
+.label-email{
+   visibility: hidden;
+/*    Label apenas para melhora a acessibilidade do site*/
+}
 .campo-contato{
    width: 30%;
    height: 30px;
@@ -308,7 +312,7 @@ html{
    border-radius: 0px 10px 10px 0;
    outline: 1px solid #6d6d6dd3;
    border: none;
-   background-color: #0F9AFE;
+   background-color: #0177CB;
    color: #ffffff;
    font-weight: 600;
    font-size: 14px;
