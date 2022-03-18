@@ -155,7 +155,7 @@ html{
 
 .card-planos:hover{
    background-color: #3F3D56;
-   color: #eff8ff;
+   color: #ffffff;
    transition: 350ms;
 }
 
@@ -195,7 +195,7 @@ html{
 
 .bt-card-planos{
    text-decoration: none;
-   color: #eff8ff;
+   color: #ffffff;
    background: #0177CB;
    padding: 3% 25%;
    border-radius: 20px;
